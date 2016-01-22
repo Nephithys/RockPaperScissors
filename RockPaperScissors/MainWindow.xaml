@@ -1,0 +1,19 @@
+﻿<Window x:Name="MainMenu" x:Class="RockPaperScissors.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RockPaperScissors"
+        mc:Ignorable="d"
+        Title="Rock Paper Scissors" Height="350" Width="525">
+    <Grid x:Name="MainMenuGrid">
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Label x:Name="MainMenuTitle" Content="Rock Paper Scissors" Margin="70,29,52,0" VerticalAlignment="Top" FontSize="40" FontWeight="Bold"/>
+        <Button x:Name="button" Content="Start Game" Margin="183,174,184,0" VerticalAlignment="Top" RenderTransformOrigin="0.373,0.45" Height="40" FontSize="20" Click="button_Click"/>
+        <CheckBox x:Name="PvP" Content="Multiplayer" VerticalAlignment="Top" Margin="137,267,287,0" Checked="checkBox_Checked"/>
+        <CheckBox x:Name="AI" Content="Single Player" Margin="287,267,128,0" VerticalAlignment="Top" Checked="checkBox_Checked_1"/>
+
+    </Grid>
+</Window>

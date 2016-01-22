@@ -1,0 +1,14 @@
+﻿<Window x:Name="PvPWin1" x:Class="RockPaperScissors.PvPWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RockPaperScissors"
+        mc:Ignorable="d"
+        Title="PvPWin" Height="395.3" Width="395.3">
+    <Grid>
+        <Label x:Name="TheWinnerIsLabel" Content="The winner is ...." Margin="95,48,95,0" VerticalAlignment="Top" IsEnabled="False"/>
+        <TextBox x:Name="TheWinnerIsText" HorizontalAlignment="Left" Height="23" Margin="95,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" TextChanged="TheWinnerIsText_TextChanged" IsEnabled="False"/>
+
+    </Grid>
+</Window>
