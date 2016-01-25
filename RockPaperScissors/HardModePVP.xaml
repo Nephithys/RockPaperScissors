@@ -1,0 +1,22 @@
+﻿<Window x:Class="RockPaperScissors.HardModePVP"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RockPaperScissors"
+        mc:Ignorable="d"
+        Title="HardModePVP" Height="314.5" Width="433.5">
+    <Grid>
+        <Label x:Name="label" Content="Enter:&#xD;&#xA;1 for &quot;Rock&quot;&#xD;&#xA;2 for &quot;Paper&quot;&#xD;&#xA;3 for &quot;Scissors&quot;&#xD;&#xA;4 for &quot;Lizard&quot;&#xD;&#xA;5 for &quot;Spock&quot;" HorizontalAlignment="Left" Margin="21,10,0,0" VerticalAlignment="Top" Height="141" Width="94"/>
+        <Button x:Name="button" Content="Submit" HorizontalAlignment="Left" Margin="93,245,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <PasswordBox x:Name="PlayerOneHMPVP" HorizontalAlignment="Left" Margin="130,157,0,0" VerticalAlignment="Top" Width="48" Height="16"/>
+        <PasswordBox x:Name="PlayerTwoHMPVP" HorizontalAlignment="Left" Margin="130,196,0,0" VerticalAlignment="Top" Width="48" Height="16"/>
+        <Label x:Name="label1" Content="Player1 Choice" HorizontalAlignment="Left" Margin="27,151,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy" Content="Player1 Choice" HorizontalAlignment="Left" Margin="27,186,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy1" Content="Username" HorizontalAlignment="Left" Margin="202,151,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy2" Content="Username" HorizontalAlignment="Left" Margin="202,194,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Player1Username" HorizontalAlignment="Left" Height="23" Margin="280,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Player2Username" HorizontalAlignment="Left" Height="23" Margin="280,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

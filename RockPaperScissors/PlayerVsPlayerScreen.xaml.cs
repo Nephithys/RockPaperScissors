@@ -33,8 +33,9 @@ namespace RockPaperScissors
 
             PvPGameResults myPvPResults = new PvPGameResults(player1Int, player2Int);
             string getWinner = myPvPResults.whoWins();
+            string getLoser = myPvPResults.whoLost(getWinner);
 
-            PvPWin displayWinner = new PvPWin(getWinner);
+            PvPWin displayWinner = new PvPWin(getWinner, getLoser);
             displayWinner.Show();
             this.Close();
         }

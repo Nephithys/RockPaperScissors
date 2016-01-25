@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using RockPaperScissorsLogic;
 
 namespace RockPaperScissors
 {
@@ -20,11 +21,14 @@ namespace RockPaperScissors
     public partial class PvPWin : Window
     {
         string winner;
-        public PvPWin(string winner)
+        string loser;
+        public PvPWin(string winner, string loser)
         {
             InitializeComponent();
             this.winner = winner;
+            this.loser = loser;
             TheWinnerIsText.Text = winner;
+            TheLoserIsText.Text = loser;
             
         }
 
@@ -33,6 +37,9 @@ namespace RockPaperScissors
 
         }
 
-        
+        private void TheLoserIsText_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

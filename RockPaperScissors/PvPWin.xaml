@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="PvPWin" Height="395.3" Width="395.3">
     <Grid>
-        <Label x:Name="TheWinnerIsLabel" Content="The winner is ...." Margin="95,48,95,0" VerticalAlignment="Top" IsEnabled="False"/>
-        <TextBox x:Name="TheWinnerIsText" HorizontalAlignment="Left" Height="23" Margin="95,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" TextChanged="TheWinnerIsText_TextChanged" IsEnabled="False"/>
+        <TextBox x:Name="TheWinnerIsText" HorizontalAlignment="Left" Height="23" Margin="95,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" TextChanged="TheWinnerIsText_TextChanged" IsEnabled="False"/>
+        <TextBox x:Name="TheLoserIsText" HorizontalAlignment="Left" Height="23" Margin="95,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="197" TextChanged="TheLoserIsText_TextChanged"/>
 
     </Grid>
 </Window>

@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArtificialIntelligence.cs" />
+    <Compile Include="HardModePvPReults.cs" />
+    <Compile Include="HardModeUserInput.cs" />
+    <Compile Include="PointsAwarded.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PvPGameResults.cs" />
     <Compile Include="Scores.cs" />

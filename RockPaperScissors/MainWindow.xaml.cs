@@ -36,15 +36,15 @@ namespace RockPaperScissors
 
             else if (AI.IsChecked == true)
             {
-                SinglePlayerScreen aiWindow = new SinglePlayerScreen();
-                aiWindow.Show();
+                HardModeMenu HardModeWindow = new HardModeMenu();
+                HardModeWindow.Show();
                 this.Close();
             }
 
             else if (PvP.IsChecked == false && AI.IsChecked == false)
             {
-                SinglePlayerScreen aiWindow = new SinglePlayerScreen();
-                aiWindow.Show();
+                HardModeMenu HardModeWindow = new HardModeMenu();
+                HardModeWindow.Show();
                 this.Close();
             }
             

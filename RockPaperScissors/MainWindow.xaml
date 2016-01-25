@@ -7,13 +7,27 @@
         mc:Ignorable="d"
         Title="Rock Paper Scissors" Height="350" Width="525">
     <Grid x:Name="MainMenuGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
             <ImageBrush/>
         </Grid.Background>
-        <Label x:Name="MainMenuTitle" Content="Rock Paper Scissors" Margin="70,29,52,0" VerticalAlignment="Top" FontSize="40" FontWeight="Bold"/>
-        <Button x:Name="button" Content="Start Game" Margin="183,174,184,0" VerticalAlignment="Top" RenderTransformOrigin="0.373,0.45" Height="40" FontSize="20" Click="button_Click"/>
-        <CheckBox x:Name="PvP" Content="Multiplayer" VerticalAlignment="Top" Margin="137,267,287,0" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="AI" Content="Single Player" Margin="287,267,128,0" VerticalAlignment="Top" Checked="checkBox_Checked_1"/>
+        <Label x:Name="MainMenuTitle" Content="Rock Paper Scissors" Margin="70,29,52,0" VerticalAlignment="Top" FontSize="40" FontWeight="Bold" Grid.ColumnSpan="2"/>
+        <Button x:Name="button" Content="Start Game" Margin="183,174,43,0" VerticalAlignment="Top" RenderTransformOrigin="0.373,0.45" Height="40" FontSize="20" Click="button_Click"/>
+        <CheckBox x:Name="PvP" Content="Simple Multiplayer" VerticalAlignment="Top" Margin="137,267,104,0" Checked="checkBox_Checked"/>
+        <CheckBox x:Name="AI" Content="Hard Mode" Margin="287,267,108,0" VerticalAlignment="Top" Checked="checkBox_Checked_1" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="101,119,0,0" TextWrapping="Wrap" Text="Scores are only on hard mode." VerticalAlignment="Top" Width="109" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-15"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
 
     </Grid>
 </Window>

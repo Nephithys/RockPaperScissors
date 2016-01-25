@@ -55,12 +55,30 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="HardModeMenu.xaml.cs">
+      <DependentUpon>HardModeMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HardModePVE.xaml.cs">
+      <DependentUpon>HardModePVE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HardModePVP.xaml.cs">
+      <DependentUpon>HardModePVP.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PvPWin.xaml.cs">
       <DependentUpon>PvPWin.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SinglePlayerScreen.xaml.cs">
-      <DependentUpon>SinglePlayerScreen.xaml</DependentUpon>
-    </Compile>
+    <Page Include="HardModeMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HardModePVE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HardModePVP.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -78,10 +96,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PvPWin.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="SinglePlayerScreen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -1,0 +1,20 @@
+﻿<Window x:Class="RockPaperScissors.HardModePVE"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RockPaperScissors"
+        mc:Ignorable="d"
+        Title="HardModePVE" Height="342.763" Width="469.763">
+    <Grid>
+        <Button x:Name="button" Content="Submit" HorizontalAlignment="Left" Margin="233,161,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <TextBlock x:Name="SinglePlayerChoice" HorizontalAlignment="Left" Margin="124,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="SinglePlayerUsername" HorizontalAlignment="Left" Height="23" Margin="207,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="SinglePlayerChoice1" HorizontalAlignment="Left" Height="23" Margin="207,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="Your Choice" HorizontalAlignment="Left" Margin="124,56,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.158,-0.077"/>
+        <Label x:Name="label1" Content="Your UserName" HorizontalAlignment="Left" Margin="105,105,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Winner" HorizontalAlignment="Left" Height="23" Margin="88,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Loser" HorizontalAlignment="Left" Height="23" Margin="270,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
