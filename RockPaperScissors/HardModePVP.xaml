@@ -5,18 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RockPaperScissors"
         mc:Ignorable="d"
-        Title="HardModePVP" Height="314.5" Width="433.5">
+        Title="HardModePVP" Height="351.5" Width="433.5">
     <Grid>
-        <Label x:Name="label" Content="Enter:&#xD;&#xA;1 for &quot;Rock&quot;&#xD;&#xA;2 for &quot;Paper&quot;&#xD;&#xA;3 for &quot;Scissors&quot;&#xD;&#xA;4 for &quot;Lizard&quot;&#xD;&#xA;5 for &quot;Spock&quot;" HorizontalAlignment="Left" Margin="21,10,0,0" VerticalAlignment="Top" Height="141" Width="94"/>
-        <Button x:Name="button" Content="Submit" HorizontalAlignment="Left" Margin="93,245,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
-        <PasswordBox x:Name="PlayerOneHMPVP" HorizontalAlignment="Left" Margin="130,157,0,0" VerticalAlignment="Top" Width="48" Height="16"/>
-        <PasswordBox x:Name="PlayerTwoHMPVP" HorizontalAlignment="Left" Margin="130,196,0,0" VerticalAlignment="Top" Width="48" Height="16"/>
-        <Label x:Name="label1" Content="Player1 Choice" HorizontalAlignment="Left" Margin="27,151,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label1_Copy" Content="Player1 Choice" HorizontalAlignment="Left" Margin="27,186,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label1_Copy1" Content="Username" HorizontalAlignment="Left" Margin="202,151,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label1_Copy2" Content="Username" HorizontalAlignment="Left" Margin="202,194,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="Player1Username" HorizontalAlignment="Left" Height="23" Margin="280,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="Player2Username" HorizontalAlignment="Left" Height="23" Margin="280,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="Enter:&#xD;&#xA;1 for &quot;Rock&quot;&#xD;&#xA;2 for &quot;Paper&quot;&#xD;&#xA;3 for &quot;Scissors&quot;&#xD;&#xA;4 for &quot;Lizard&quot;&#xD;&#xA;5 for &quot;Spock&quot;" HorizontalAlignment="Left" Margin="21,10,0,0" VerticalAlignment="Top" Height="108" Width="94"/>
+        <Button x:Name="button" Content="Submit" HorizontalAlignment="Left" Margin="310,203,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <PasswordBox x:Name="PlayerOneHMPVP" HorizontalAlignment="Left" Margin="130,130,0,0" VerticalAlignment="Top" Width="48" Height="16"/>
+        <PasswordBox x:Name="PlayerTwoHMPVP" HorizontalAlignment="Left" Margin="130,165,0,0" VerticalAlignment="Top" Width="48" Height="16"/>
+        <Label x:Name="label1" Content="Player1 Choice" HorizontalAlignment="Left" Margin="27,124,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy" Content="Player1 Choice" HorizontalAlignment="Left" Margin="27,155,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy1" Content="Username" HorizontalAlignment="Left" Margin="202,124,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy2" Content="Username" HorizontalAlignment="Left" Margin="202,163,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Player1Username" HorizontalAlignment="Left" Height="23" Margin="280,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Player2Username" HorizontalAlignment="Left" Height="23" Margin="280,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="PvPWinner" HorizontalAlignment="Left" Height="23" Margin="41,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <TextBox x:Name="PvPLoser" HorizontalAlignment="Left" Height="23" Margin="265,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <Button x:Name="button1" Content="Main Menu" HorizontalAlignment="Left" Margin="310,280,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
 
     </Grid>
 </Window>

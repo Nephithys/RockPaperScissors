@@ -48,6 +48,15 @@ namespace RockPaperScissors
 
             Winner.Text = win;
             Loser.Text = lose;
+            ChoiceResultP1.Text = SinglePlayerChoice1.Text;
+            ChoiceResultP2.Text = aiInt;
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow myWindow = new MainWindow();
+            myWindow.Show();
+            this.Close();
         }
     }
 }

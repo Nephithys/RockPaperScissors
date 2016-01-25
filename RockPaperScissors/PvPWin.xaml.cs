@@ -41,5 +41,12 @@ namespace RockPaperScissors
         {
 
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow myWindow = new MainWindow();
+            myWindow.Show();
+            this.Close();
+        }
     }
 }

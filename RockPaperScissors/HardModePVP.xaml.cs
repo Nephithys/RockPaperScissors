@@ -42,6 +42,16 @@ namespace RockPaperScissors
             string p2Info = myScore.concatStringsP2();
             myScore.saveHighScores(p1Info, p2Info);
 
-        }   
+            PvPWinner.Text = win;
+            PvPLoser.Text = lose;
+
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow myWindow = new MainWindow();
+            myWindow.Show();
+            this.Close();
+        }
     }
 }

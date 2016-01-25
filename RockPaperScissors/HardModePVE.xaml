@@ -13,8 +13,14 @@
         <TextBox x:Name="SinglePlayerChoice1" HorizontalAlignment="Left" Height="23" Margin="207,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="label" Content="Your Choice" HorizontalAlignment="Left" Margin="124,56,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.158,-0.077"/>
         <Label x:Name="label1" Content="Your UserName" HorizontalAlignment="Left" Margin="105,105,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="Winner" HorizontalAlignment="Left" Height="23" Margin="88,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="Loser" HorizontalAlignment="Left" Height="23" Margin="270,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Winner" HorizontalAlignment="Left" Height="23" Margin="86,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <TextBox x:Name="Loser" HorizontalAlignment="Left" Height="23" Margin="269,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <Label x:Name="label_Copy" Content="Enter:&#xA;1 for &quot;Rock&quot;&#xA;2 for &quot;Paper&quot;&#xA;3 for &quot;Scissors&quot;&#xA;4 for &quot;Lizard&quot;&#xA;5 for &quot;Spock&quot;" HorizontalAlignment="Left" Margin="11,10,0,0" VerticalAlignment="Top" Height="141" Width="94"/>
+        <Label x:Name="label2" Content="You" HorizontalAlignment="Left" Margin="34,205,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="AI" HorizontalAlignment="Left" Margin="225,205,0,0" VerticalAlignment="Top" Width="30"/>
+        <TextBox x:Name="ChoiceResultP1" HorizontalAlignment="Left" Height="23" Margin="86,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <TextBox x:Name="ChoiceResultP2" HorizontalAlignment="Left" Height="23" Margin="269,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <Button x:Name="button1" Content="Main Menu" HorizontalAlignment="Left" Margin="349,275,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
 
     </Grid>
 </Window>
